@@ -53,3 +53,6 @@ UPDATE package.json (1216 bytes)
 UPDATE src/app/app.module.ts (906 bytes)
 UPDATE src/index.html (760 bytes)
 
+## Adding ngrx 
+npm install @ngrx/store --save
+
