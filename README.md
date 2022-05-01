@@ -25,3 +25,31 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+## Adding Material 
+ng add @angular/material
+docs --> https://material.angular.io/
+
+## Adding ngx-translate 
+npm install @ngx-translate/core --save
+docs --> https://github.com/ngx-translate/core#installation
+
+## Adding PWA
+ng add @angular/pwa
+it will do the following 
+CREATE ngsw-config.json (631 bytes)
+CREATE src/manifest.webmanifest (1336 bytes)
+CREATE src/assets/icons/icon-128x128.png (1253 bytes)
+CREATE src/assets/icons/icon-144x144.png (1394 bytes)
+CREATE src/assets/icons/icon-152x152.png (1427 bytes)
+CREATE src/assets/icons/icon-192x192.png (1790 bytes)
+CREATE src/assets/icons/icon-384x384.png (3557 bytes)
+CREATE src/assets/icons/icon-512x512.png (5008 bytes)
+CREATE src/assets/icons/icon-72x72.png (792 bytes)
+CREATE src/assets/icons/icon-96x96.png (958 bytes)
+UPDATE angular.json (3376 bytes)
+UPDATE package.json (1216 bytes)
+UPDATE src/app/app.module.ts (906 bytes)
+UPDATE src/index.html (760 bytes)
+
