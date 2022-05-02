@@ -1,0 +1,95 @@
+{
+  "configVersion": 1,
+  "timestamp": 1651460213142,
+  "index": "chetai/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "chetai/favicon.ico",
+        "chetai/index.html",
+        "chetai/main.c27bf1391f240228.js",
+        "chetai/manifest.webmanifest",
+        "chetai/polyfills.1d69d3e07cd2759a.js",
+        "chetai/runtime.d2f89665aa89ef04.js",
+        "chetai/styles.3d7c9bb6d4efc7bf.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "chetai/assets/icons/icon-128x128.png",
+        "chetai/assets/icons/icon-144x144.png",
+        "chetai/assets/icons/icon-152x152.png",
+        "chetai/assets/icons/icon-192x192.png",
+        "chetai/assets/icons/icon-384x384.png",
+        "chetai/assets/icons/icon-512x512.png",
+        "chetai/assets/icons/icon-72x72.png",
+        "chetai/assets/icons/icon-96x96.png",
+        "chetai/assets/img/Grocery-and-supermarkets-header.jpg",
+        "chetai/assets/img/app.svg",
+        "chetai/assets/img/img2.jpg",
+        "chetai/assets/img/img3.webp",
+        "chetai/assets/img/logo.png",
+        "chetai/assets/img/logo1.png",
+        "chetai/assets/img/truck.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "chetai/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "chetai/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "chetai/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "chetai/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "chetai/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "chetai/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "chetai/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "chetai/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "chetai/assets/img/Grocery-and-supermarkets-header.jpg": "0e518d805d3883f4113aa545d5ef95af639071e0",
+    "chetai/assets/img/app.svg": "62ba5af8e2295244a04f712d72967fa5b0be9a5a",
+    "chetai/assets/img/img2.jpg": "20cbd27fd51336f681d2b6616467f4f38a082c04",
+    "chetai/assets/img/img3.webp": "aa96f095d8b02356ab623e3ef54e13762ded2aed",
+    "chetai/assets/img/logo.png": "166e4fa379909e77846f9a6f28efe30ff90668b3",
+    "chetai/assets/img/logo1.png": "f14b4ff7300a58783534c23636b4d4801a8fcffa",
+    "chetai/assets/img/truck.svg": "634484defbf197a777c2251242c5796c7070cdf9",
+    "chetai/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "chetai/index.html": "5b0825047f0d6f663851c593c597cbf22991ec88",
+    "chetai/main.c27bf1391f240228.js": "c5f85052462e7b181dc702780a4a06165e9f1152",
+    "chetai/manifest.webmanifest": "2e7b740fca6288287b96cbabd23575be8cb02fc1",
+    "chetai/polyfills.1d69d3e07cd2759a.js": "22ce54a3a6422a9b57ff22e454e3fd506881abd7",
+    "chetai/runtime.d2f89665aa89ef04.js": "b88aa920ac79714a721a866538a3da872f621d0a",
+    "chetai/styles.3d7c9bb6d4efc7bf.css": "39a6ef7bd8bfbd5b280255646d21ea756e38b900"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
