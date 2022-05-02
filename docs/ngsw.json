@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1651460213142,
+  "timestamp": 1651494079140,
   "index": "chetai/index.html",
   "assetGroups": [
     {
@@ -13,11 +13,11 @@
       "urls": [
         "chetai/favicon.ico",
         "chetai/index.html",
-        "chetai/main.c27bf1391f240228.js",
+        "chetai/main.e6a136382f993ba9.js",
         "chetai/manifest.webmanifest",
         "chetai/polyfills.1d69d3e07cd2759a.js",
         "chetai/runtime.d2f89665aa89ef04.js",
-        "chetai/styles.3d7c9bb6d4efc7bf.css"
+        "chetai/styles.f26cdcb57409ceba.css"
       ],
       "patterns": []
     },
@@ -29,6 +29,8 @@
         "ignoreVary": true
       },
       "urls": [
+        "chetai/assets/i18n/en.json",
+        "chetai/assets/i18n/tn.json",
         "chetai/assets/icons/icon-128x128.png",
         "chetai/assets/icons/icon-144x144.png",
         "chetai/assets/icons/icon-152x152.png",
@@ -50,6 +52,8 @@
   ],
   "dataGroups": [],
   "hashTable": {
+    "chetai/assets/i18n/en.json": "b61d0904ee226214ae3ede9976df1fa53f4aebd9",
+    "chetai/assets/i18n/tn.json": "f5045d89ed1d74dc913561c267904e11f3c56906",
     "chetai/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "chetai/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
     "chetai/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
@@ -66,12 +70,12 @@
     "chetai/assets/img/logo1.png": "f14b4ff7300a58783534c23636b4d4801a8fcffa",
     "chetai/assets/img/truck.svg": "634484defbf197a777c2251242c5796c7070cdf9",
     "chetai/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "chetai/index.html": "5b0825047f0d6f663851c593c597cbf22991ec88",
-    "chetai/main.c27bf1391f240228.js": "c5f85052462e7b181dc702780a4a06165e9f1152",
+    "chetai/index.html": "d381a36b1239c0a8b0a5ad8f10f0fd0e15d8c007",
+    "chetai/main.e6a136382f993ba9.js": "f3685fd2e9df6cc0e4cc903c420616eae41eeb78",
     "chetai/manifest.webmanifest": "2e7b740fca6288287b96cbabd23575be8cb02fc1",
     "chetai/polyfills.1d69d3e07cd2759a.js": "22ce54a3a6422a9b57ff22e454e3fd506881abd7",
     "chetai/runtime.d2f89665aa89ef04.js": "b88aa920ac79714a721a866538a3da872f621d0a",
-    "chetai/styles.3d7c9bb6d4efc7bf.css": "39a6ef7bd8bfbd5b280255646d21ea756e38b900"
+    "chetai/styles.f26cdcb57409ceba.css": "15675f4eafadd6fbe22d03e4b29f87edb0e9d4a2"
   },
   "navigationUrls": [
     {

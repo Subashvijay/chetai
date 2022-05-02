@@ -1,4 +1,5 @@
 import { Component, Input, OnChanges, OnInit, SimpleChanges } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-side-nav',
@@ -7,7 +8,8 @@ import { Component, Input, OnChanges, OnInit, SimpleChanges } from '@angular/cor
 })
 export class SideNavComponent implements OnInit, OnChanges {
   @Input() isOpen = false;
-  constructor() { }
+  isTamil = false;
+  constructor(public translate: TranslateService) { }
 
   ngOnChanges(changes: SimpleChanges): void {
 
@@ -16,4 +18,13 @@ export class SideNavComponent implements OnInit, OnChanges {
   ngOnInit(): void {
   }
 
+  changeLang() {
+    if (this.isTamil) {
+      this.translate.use('tn');
+    } else {
+      this.translate.use('en');
+
+    }
+    //this.isTamil = !this.isTamil
+  }
 }

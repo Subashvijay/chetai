@@ -1,4 +1,5 @@
-<nav class="navbar navbar-light bg-light" style="background-color: #485f78 !important; color:white">
+<nav class="navbar navbar-light bg-light"
+  style="background-color: #485f78 !important; color:white; border-bottom: 1px solid white; padding: 0px;">
   <a class="navbar-brand" style="color: white;" href="#">
     <img src="/assets/img/app.svg" width="30" height="30" class="d-inline-block align-top" alt="">
     Chitai
@@ -6,4 +7,6 @@
   <p (click)="isSideNavOpen = !isSideNavOpen" class="sideNav-btn" style="font-size: 30px;">☰</p>
 </nav>
 <app-home-page></app-home-page>
+<!-- <mat-slide-toggle>Slide me!</mat-slide-toggle>
+<mat-slider min="1" max="100" step="1" value="50"></mat-slider> -->
 <app-side-nav [isOpen]="isSideNavOpen"></app-side-nav>

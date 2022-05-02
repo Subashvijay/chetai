@@ -33,7 +33,8 @@ docs --> https://material.angular.io/
 
 ## Adding ngx-translate 
 npm install @ngx-translate/core --save
-docs --> https://github.com/ngx-translate/core#installation
+docs --> https://github.com/ngx-translate/core#installation 
+https://github.com/ngx-translate/core
 
 ## Adding PWA
 ng add @angular/pwa
@@ -55,4 +56,7 @@ UPDATE src/index.html (760 bytes)
 
 ## Adding ngrx 
 npm install @ngrx/store --save
+
+## mat icons
+https://developers.google.com/fonts/docs/material_icons
 

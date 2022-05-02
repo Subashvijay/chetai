@@ -8,21 +8,29 @@
         </div>
         <div class="row d-flex justify-content-center">
             <button type="button" class="btn btn-secondary mt-3">
-                Create Item lists
+                {{'Home.CreateItemLists' | translate}}
             </button>
         </div>
         <div class="row d-flex justify-content-center">
             <button type="button" (click)="isLogin = !isLogin" class="btn btn-secondary mt-3">
-                Login as User
+                {{'Home.LoginAsUser' | translate}}
             </button>
         </div>
         <div class="row d-flex justify-content-center">
             <button type="button" class="btn btn-secondary mt-3">
-                Login as Shop owner
+                {{'Home.LoginAsShopOwner' | translate}}
             </button>
         </div>
     </div>
+
     <div *ngIf="isLogin" class="form-group">
+        <div>
+            <button type="button" (click)="isLogin = !isLogin" style="width:fit-content;height: 30px;"
+                class="btn p-0 btn-secondary">
+                <span class="material-icons md-18">arrow_back</span>
+            </button>
+
+        </div>
         <label for="">Enter your Phone Number</label>
         <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
     </div>
