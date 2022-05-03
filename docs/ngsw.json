@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1651499988270,
+  "timestamp": 1651548315611,
   "index": "chetai/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "chetai/favicon.ico",
         "chetai/index.html",
-        "chetai/main.163ed742231c9c47.js",
+        "chetai/main.7b2fa2f0d420922f.js",
         "chetai/manifest.webmanifest",
         "chetai/polyfills.1d69d3e07cd2759a.js",
         "chetai/runtime.d2f89665aa89ef04.js",
@@ -45,6 +45,7 @@
         "chetai/assets/img/img3.webp",
         "chetai/assets/img/logo.png",
         "chetai/assets/img/logo1.png",
+        "chetai/assets/img/tomato.jpg",
         "chetai/assets/img/truck.svg"
       ],
       "patterns": []
@@ -52,7 +53,7 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "chetai/assets/i18n/en.json": "b61d0904ee226214ae3ede9976df1fa53f4aebd9",
+    "chetai/assets/i18n/en.json": "eb09b3ef73dd534b5bc4abe57d1e24cb248b5c20",
     "chetai/assets/i18n/tn.json": "f5045d89ed1d74dc913561c267904e11f3c56906",
     "chetai/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "chetai/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
@@ -68,10 +69,11 @@
     "chetai/assets/img/img3.webp": "aa96f095d8b02356ab623e3ef54e13762ded2aed",
     "chetai/assets/img/logo.png": "166e4fa379909e77846f9a6f28efe30ff90668b3",
     "chetai/assets/img/logo1.png": "f14b4ff7300a58783534c23636b4d4801a8fcffa",
+    "chetai/assets/img/tomato.jpg": "84453fa6388179782d983bcf2c629fb66af913fe",
     "chetai/assets/img/truck.svg": "634484defbf197a777c2251242c5796c7070cdf9",
     "chetai/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "chetai/index.html": "2888cc0448f35277f2a4a6ed20ceb833571e7e33",
-    "chetai/main.163ed742231c9c47.js": "646692d0ee1f0fc6c543eb35da1635f718a44f5e",
+    "chetai/index.html": "b784c68314b122a8067f499d382adc203acb60c3",
+    "chetai/main.7b2fa2f0d420922f.js": "d3ea99be4baf6183b561f626121b8a4b8a3ec667",
     "chetai/manifest.webmanifest": "2e7b740fca6288287b96cbabd23575be8cb02fc1",
     "chetai/polyfills.1d69d3e07cd2759a.js": "22ce54a3a6422a9b57ff22e454e3fd506881abd7",
     "chetai/runtime.d2f89665aa89ef04.js": "b88aa920ac79714a721a866538a3da872f621d0a",
