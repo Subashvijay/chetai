@@ -6,7 +6,7 @@
   </a>
   <p (click)="isSideNavOpen = !isSideNavOpen" class="sideNav-btn" style="font-size: 30px;">☰</p>
 </nav>
-<app-home-page></app-home-page>
+<router-outlet></router-outlet>
 <!-- <mat-slide-toggle>Slide me!</mat-slide-toggle>
 <mat-slider min="1" max="100" step="1" value="50"></mat-slider> -->
 <app-side-nav [isOpen]="isSideNavOpen"></app-side-nav>

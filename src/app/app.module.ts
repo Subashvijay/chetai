@@ -17,6 +17,9 @@ import { FormsModule } from '@angular/forms';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatSliderModule } from '@angular/material/slider';
 import { MatIconModule } from '@angular/material/icon';
+import { ItemCardComponent } from './components/item-list-page/item-card/item-card.component';
+import { StoreModule } from '@ngrx/store';
+import { initialState, itemReducer } from './store/item-list.reducer';
 
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -27,7 +30,8 @@ export function createTranslateLoader(http: HttpClient) {
     AppComponent,
     HomePageComponent,
     SideNavComponent,
-    ItemListPageComponent
+    ItemListPageComponent,
+    ItemCardComponent
   ],
   imports: [
     BrowserModule,
@@ -37,6 +41,7 @@ export function createTranslateLoader(http: HttpClient) {
     MatSlideToggleModule,
     MatSliderModule,
     MatIconModule,
+    StoreModule.forRoot({ item: itemReducer }),
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,

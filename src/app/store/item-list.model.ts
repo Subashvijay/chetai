@@ -4,3 +4,8 @@ export interface Item {
     imgUrl: string,
     quantityType: 'Kg' | 'Ltr' | 'mg' | 'qty'
 }
+
+export interface AppState {
+    items: Item[],
+    count: number
+}

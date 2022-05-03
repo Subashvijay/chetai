@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1651494894403,
+  "timestamp": 1651499988270,
   "index": "chetai/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "chetai/favicon.ico",
         "chetai/index.html",
-        "chetai/main.0f526cffd50fd242.js",
+        "chetai/main.163ed742231c9c47.js",
         "chetai/manifest.webmanifest",
         "chetai/polyfills.1d69d3e07cd2759a.js",
         "chetai/runtime.d2f89665aa89ef04.js",
@@ -70,8 +70,8 @@
     "chetai/assets/img/logo1.png": "f14b4ff7300a58783534c23636b4d4801a8fcffa",
     "chetai/assets/img/truck.svg": "634484defbf197a777c2251242c5796c7070cdf9",
     "chetai/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "chetai/index.html": "2f686d9ebc2919d4108da54f47cdaad1e17fbe00",
-    "chetai/main.0f526cffd50fd242.js": "7c70150eb3c741e25964abe740673ce73df585e1",
+    "chetai/index.html": "2888cc0448f35277f2a4a6ed20ceb833571e7e33",
+    "chetai/main.163ed742231c9c47.js": "646692d0ee1f0fc6c543eb35da1635f718a44f5e",
     "chetai/manifest.webmanifest": "2e7b740fca6288287b96cbabd23575be8cb02fc1",
     "chetai/polyfills.1d69d3e07cd2759a.js": "22ce54a3a6422a9b57ff22e454e3fd506881abd7",
     "chetai/runtime.d2f89665aa89ef04.js": "b88aa920ac79714a721a866538a3da872f621d0a",
