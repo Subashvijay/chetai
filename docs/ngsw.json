@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1651970212884,
+  "timestamp": 1651970930297,
   "index": "chetai/index.html",
   "assetGroups": [
     {
@@ -72,7 +72,7 @@
     "chetai/assets/img/tomato.jpg": "84453fa6388179782d983bcf2c629fb66af913fe",
     "chetai/assets/img/truck.svg": "634484defbf197a777c2251242c5796c7070cdf9",
     "chetai/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "chetai/index.html": "11af7729dc6dd2b4fe6de1c513d9b5cec5f69ea8",
+    "chetai/index.html": "01e1207a81cfefac98f740e47d0b54efb8b9ba03",
     "chetai/main.8917d58e5e63995a.js": "004ab003a229bb71abf0efeaeb7cf405264de730",
     "chetai/manifest.webmanifest": "2e7b740fca6288287b96cbabd23575be8cb02fc1",
     "chetai/polyfills.1d69d3e07cd2759a.js": "22ce54a3a6422a9b57ff22e454e3fd506881abd7",
