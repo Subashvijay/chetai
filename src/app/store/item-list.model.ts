@@ -7,5 +7,6 @@ export interface Item {
 
 export interface AppState {
     items: Item[],
-    count: number
+    count: number,
+    myName: string
 }

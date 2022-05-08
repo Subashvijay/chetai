@@ -60,3 +60,4 @@ npm install @ngrx/store --save
 ## mat icons
 https://developers.google.com/fonts/docs/material_icons
 
+ng build --output-path docs --base-href chetai

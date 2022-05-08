@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { createSelector, select, Store } from '@ngrx/store';
 import { Observable } from 'rxjs';
-import { AddCount, AddItem } from 'src/app/store/item-list.action';
+import { AddCount, AddItem, addName } from 'src/app/store/item-list.action';
 import { AppState, Item } from 'src/app/store/item-list.model';
 import { itemsSelector } from 'src/app/store/item-list.selector';
 
@@ -12,6 +12,7 @@ import { itemsSelector } from 'src/app/store/item-list.selector';
 })
 export class ItemListPageComponent implements OnInit {
   public $Items!: Observable<Item[]>;
+  public name$;
   count$;
   item: Item = {
     id: 1,
@@ -21,13 +22,14 @@ export class ItemListPageComponent implements OnInit {
   }
 
   constructor(private store: Store<{ item: AppState }>) {
-    this.count$ = store.select("item", 'items');
-
+    this.count$ = store.select("item", 'count');
+    this.name$ = store.select("item", 'myName');
   }
 
   ngOnInit(): void {
 
     this.$Items = this.store.select<Item[]>(itemsSelector);
+
     this.$Items.subscribe(
       x =>
         console.log(x, 'item')
@@ -37,12 +39,15 @@ export class ItemListPageComponent implements OnInit {
     )
     this.store.subscribe(x =>
       console.log(x, 'store'))
-    this.store.dispatch(AddItem({ item: this.item }))
+    // this.store.dispatch(AddItem({ item: { ...this.item } }))
   }
 
   add() {
-    this.store.dispatch(AddItem({ item: this.item }))
-    this.store.dispatch(AddCount())
+    this.item.id++;
+    this.store.dispatch(AddItem({ item: { ...this.item } }))
+    this.store.dispatch(AddCount());
+
+    this.store.dispatch(addName({ name: 'subash' }));
 
   }
 

@@ -20,6 +20,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { ItemCardComponent } from './components/item-list-page/item-card/item-card.component';
 import { StoreModule } from '@ngrx/store';
 import { initialState, itemReducer } from './store/item-list.reducer';
+import { MatCheckboxModule } from '@angular/material/checkbox';
 
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -38,6 +39,8 @@ export function createTranslateLoader(http: HttpClient) {
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
+    // material
+    MatCheckboxModule,
     MatSlideToggleModule,
     MatSliderModule,
     MatIconModule,

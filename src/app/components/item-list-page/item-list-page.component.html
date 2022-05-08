@@ -1,16 +1,19 @@
-<p>item-list-page works!</p>
-
-<button (click)="add()">Add items</button>
-<div class="container-fluid p-2" style="height: 400px;display: flex;overflow-x: auto;">
-    <div *ngFor="let item of $Items | async" class="card mx-2" style="min-width: 200px;height: 200px;">
-        <img src="{{item.imgUrl}}" class="card-img-top" style="width: 190px;" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">{{item.name}}</h5>
-            <h6 class="card-subtitle mb-2 text-muted ">{{item.id}}</h6>
-            <p class="card-text">{{item.quantityType}}</p>
+<div style="background-color: #485f78;height: 100%;">
+    <div class="row px-3 d-flex">
+        <div class="col-6">
+            <button class="btn btn-secondary mt-2 ms-auto" style="border: 1px solid white;" (click)="add()">Add items
+                +</button>
+        </div>
+        <div class="col d-flex justify-content-end">
+            <div>
+                <label class="ms-4" style="color: white;">Selected Items: </label>
+                <span class="badge rounded-pill bg-dark p-2 mt-3 mx-2" style="">10</span>
+            </div>
         </div>
     </div>
+
+    <div class="container-fluid" style="overflow-x: auto; height: 100%; ">
+        <app-item-card *ngFor="let item of $Items | async" [item]="item"></app-item-card>
+    </div>
+
 </div>
-{{$Items | async}}
-a;lk
-{{count$ | async}}
